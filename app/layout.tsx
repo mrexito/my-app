@@ -1,7 +1,7 @@
-import AppBar from './components/AppBar';
 import Providers from './components/Providers';
 import './globals.css'
 import { Inter } from 'next/font/google'
+import AppBar from './components/AppBar';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,7 +22,7 @@ export default function RootLayout({
           <AppBar />
           {children}
         </Providers>
-        </body>
+      </body>
     </html>
   )
 }
